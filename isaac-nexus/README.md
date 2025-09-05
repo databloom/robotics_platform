@@ -133,8 +133,6 @@ The Isaac-Nexus platform consists of several key components:
 - **Control Loop Latency**: <100ms
 - **Video Processing**: 30fps sustained
 - **Object Detection Accuracy**: 95%
-- **Data Compression**: 10:1 average
-- **Storage Efficiency**: 40% reduction through deduplication
 
 ## Use Cases
 

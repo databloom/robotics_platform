@@ -139,7 +139,7 @@ The Isaac-Nexus platform operates on four fundamental principles:
 - Global namespace for unified data access
 - Policy-based data movement
 - Intelligent tiering (hot/warm/cold storage)
-- Global deduplication and compression
+- Global data management and optimization
 
 **MCP (Model Context Protocol):**
 - Agent-based tool calling and coordination
@@ -231,8 +231,6 @@ metadata = {
 **Performance Metrics:**
 - End-to-end latency: <200ms
 - Processing throughput: 30fps sustained
-- Compression ratio: 10:1 average
-- Storage efficiency: 40% reduction through deduplication
 
 ### 3.4 Agentic Hardware Layer Management
 

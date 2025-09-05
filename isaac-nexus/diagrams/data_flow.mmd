@@ -14,7 +14,7 @@ graph LR
     subgraph "Data Processing Pipeline"
         PREPROC[Preprocessing<br/>Filtering, Normalization]
         AI[AI/ML Processing<br/>Object Detection, Planning]
-        COMPRESS[Compression<br/>H.265, LZ4]
+        OPTIMIZE[Data Optimization<br/>Streaming, Caching]
         TAG[Tagging<br/>Metadata Generation]
     end
     
@@ -48,8 +48,8 @@ graph LR
     
     %% Processing pipeline
     PREPROC --> AI
-    AI --> COMPRESS
-    COMPRESS --> TAG
+    AI --> OPTIMIZE
+    OPTIMIZE --> TAG
     
     %% Storage flow
     TAG --> LOCAL

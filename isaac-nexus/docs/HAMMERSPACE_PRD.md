@@ -179,7 +179,7 @@ policy_engine:
 
 **Requirements**:
 - Support real-time data streaming from robotic sensors
-- Implement data compression and deduplication
+- Implement data optimization and management
 - Provide quality of service (QoS) guarantees
 - Enable data transformation and enrichment
 - Support multiple streaming protocols (Kafka, MQTT, WebSocket)
@@ -187,7 +187,6 @@ policy_engine:
 **Acceptance Criteria**:
 - Stream latency <100ms end-to-end
 - Support for 10,000+ concurrent streams
-- Data compression ratio >5:1
 - 99.9% message delivery guarantee
 
 #### 3.2.2 AI-Driven Data Analytics
